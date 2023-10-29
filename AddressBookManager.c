@@ -6,11 +6,11 @@
 
 typedef struct
 {
-    char num[5];    //编号
-    char name[10];  //姓名
-    char sex[3];    //性别
-    char phone[15]; //电话
-    char addr[30];  //地址
+    char num[5];    // 编号
+    char name[10];  // 姓名
+    char sex[3];    // 性别
+    char phone[15]; // 电话
+    char addr[30];  // 地址
 } Datatype;
 
 typedef struct
@@ -55,7 +55,7 @@ int main()
             Tx_SqListPrintf(L);
             break;
         case 0:
-            printf("再见\n");
+            printf("再见，欢迎下次使用！\n");
             exit(0);
         }
     }
